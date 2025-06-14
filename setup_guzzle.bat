@@ -30,7 +30,7 @@ REM Create composer.json file
 echo Creating composer.json file...
 (
 echo {
-echo   "name": "replay-downloader/http-client",
+echo   "name": "gentool-replay-downloader/http-client",
 echo   "description": "Replay Download Tool with HTTP Client",
 echo   "require": {
 echo     "guzzlehttp/guzzle": "^7.0"
