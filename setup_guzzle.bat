@@ -30,15 +30,10 @@ REM Create composer.json file
 echo Creating composer.json file...
 (
 echo {
-echo   "name": "zh-ladder/replay-processor",
-echo   "description": "ZH Ladder Replay Processing System",
+echo   "name": "replay-downloader/http-client",
+echo   "description": "Replay Download Tool with HTTP Client",
 echo   "require": {
 echo     "guzzlehttp/guzzle": "^7.0"
-echo   },
-echo   "autoload": {
-echo     "psr-4": {
-echo       "ZHLadder\\": "src/"
-echo     }
 echo   }
 echo }
 ) > composer.json
